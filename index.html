@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  #checkbox{
+    display: none;
+  }
+</style>
+<body> 
+  
+  <!-- <div id="parent">
+    <h1>Parent Element</h1>
+</div>
+
+
+<script>
+  // Create a new <div> element
+  const newDiv = document.createElement('div');
+  newDiv.textContent = 'Hello, World!';
+  newDiv.className = 'my-div';
+
+  // Get the parent element
+  const parentElement = document.getElementById('parent');
+
+  // Append the new div as a child of the parent element
+  parentElement.appendChild(newDiv);
+
+  // Create a new <span> element
+  const newSpan = document.createElement('span');
+  newSpan.textContent = ' This is a span.';
+
+  // Append the span to the parent element as well
+  parentElement.append(newSpan); -->
+  
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Toggle Checkbox Example</title>
+      <style>
+          #checkbox {
+              display: none; /* Initially hidden */
+          }
+      </style>
+  </head>
+  <body>
+  
+      <!-- <button onclick="toggleCheckbox()">Show/Hide Checkbox</button>
+      <br><br>
+      <input type="checkbox" id="checkbox"> -->
+ 
+       <ol id="ol">
+        <li>Akhil</li>
+        <li>Hemdan</li>
+        <li>Shamil</li>
+        <li>jinan</li>
+      </ol> 
+
+       
+
+  
+      <script>
+             const evt = document.querySelector("#ol")
+             evt.addEventListener('click',(e)=>{
+              if(e.target.tagName === 'LI'){
+                confirm("confirm")
+                console.log(e.target.textContent);
+                
+              }
+             })
+          
+         
+          
+       </script>
+
+      
+  </body>
+  </html>
+  
+
+<!-- 
+</body>
+</html> -->
